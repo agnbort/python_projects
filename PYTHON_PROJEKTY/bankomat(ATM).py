@@ -1,3 +1,4 @@
+
 print("Witaj")
 
 saldo = 1000
@@ -77,8 +78,7 @@ if opcja == 0:
         print("Proszę odebrać kartę")
         print("Dziękujemy")
         print("Zapraszamy ponownie")
-        
-    input()
+    input()    
     exit()
 
 
@@ -110,7 +110,6 @@ wybrana_kwota = input()
 wybrana_kwota = int(wybrana_kwota)
 
 
-#zrobic pętle
 if wybrana_kwota == 0 or wybrana_kwota == 1 or wybrana_kwota == 2 or wybrana_kwota == 3:
     if wybrana_kwota == 0:
         if (saldo < 50):
@@ -140,7 +139,7 @@ if wybrana_kwota == 0 or wybrana_kwota == 1 or wybrana_kwota == 2 or wybrana_kwo
         else:
             print("Wybrana kwota jest poprawna")
             saldo = saldo - 500
-#koniec pętli.żeby po brak srodków, odesłało do stanu konta
+
 
 if wybrana_kwota == 4:
     print("Podaj kwotę")
